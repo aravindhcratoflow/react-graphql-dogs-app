@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'https://5vxky4z9pl.sse.codesandbox.io/',
+  uri: 'https://dev.cratosys.com/cratographql',
   cache: new InMemoryCache(),
 });
 
