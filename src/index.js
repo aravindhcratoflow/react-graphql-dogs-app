@@ -3,10 +3,9 @@ import { createRoot } from 'react-dom/client';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'https://dev.cratosys.com/cratographql',
+  uri: 'https://5vxky4z9pl.sse.codesandbox.io/',
   cache: new InMemoryCache(),
 });
-
 
 import App from './App';
 
